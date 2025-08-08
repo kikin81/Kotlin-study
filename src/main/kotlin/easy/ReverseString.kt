@@ -1,7 +1,11 @@
 package easy
 
 fun reverseString(input: String): String {
-    // TODO: Implement string reversal without using built-in reverse() function
-    // Hint: You can use a loop, recursion, or character array manipulation
-    return ""
+    if (input.length <= 1) return input
+    val chars = input.toCharArray()
+    val builder = StringBuilder()
+    for (i in chars.indices.reversed()) {
+        builder.append(chars[i])
+    }
+    return builder.toString()
 }

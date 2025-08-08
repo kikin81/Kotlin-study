@@ -27,7 +27,7 @@ class CountVowelsTest {
 
     @Test
     fun testMixedCase() {
-        assertEquals(4, countVowels("HeLLo WoRLd"))
+        assertEquals(3, countVowels("HeLLo WoRLd"))
     }
 
     @Test
@@ -42,11 +42,11 @@ class CountVowelsTest {
 
     @Test
     fun testSentenceWithPunctuation() {
-        assertEquals(5, countVowels("Hello, World!"))
+        assertEquals(3, countVowels("Hello, World!"))
     }
 
     @Test
     fun testNumbers() {
-        assertEquals(1, countVowels("a1b2e3"))
+        assertEquals(2, countVowels("a1b2e3"))
     }
 }
