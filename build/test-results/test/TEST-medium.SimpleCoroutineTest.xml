@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="medium.SimpleCoroutineTest" tests="4" skipped="0" failures="4" errors="0" timestamp="2025-08-08T00:22:36.529Z" hostname="Francisco-Velazquez-MacBook-Pro-16-inch-2021-" time="0.048">
+  <properties/>
+  <testcase name="testDifferentUserIds()" classname="medium.SimpleCoroutineTest" time="0.04">
+    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;Processed: User data for user 1&gt; but was: &lt;&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;Processed: User data for user 1&gt; but was: &lt;&gt;
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at app//org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at app//org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at app//medium.SimpleCoroutineTest$testDifferentUserIds$1.invokeSuspend(SimpleCoroutineTest.kt:53)
+	at app//kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at app//kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+	at app//kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:280)
+	at app//kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:85)
+	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:59)
+	at app//kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)
+	at app//kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at app//medium.SimpleCoroutineTest.testDifferentUserIds(SimpleCoroutineTest.kt:49)
+	at java.base@11.0.19/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base@11.0.19/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base@11.0.19/java.util.ArrayList.forEach(ArrayList.java:1541)
+</failure>
+  </testcase>
+  <testcase name="testFetchUserData()" classname="medium.SimpleCoroutineTest" time="0.002">
+    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;User data for user 123&gt; but was: &lt;&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;User data for user 123&gt; but was: &lt;&gt;
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at app//org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at app//org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at app//medium.SimpleCoroutineTest$testFetchUserData$1.invokeSuspend(SimpleCoroutineTest.kt:16)
+	at app//kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at app//kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+	at app//kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:280)
+	at app//kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:85)
+	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:59)
+	at app//kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)
+	at app//kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at app//medium.SimpleCoroutineTest.testFetchUserData(SimpleCoroutineTest.kt:11)
+	at java.base@11.0.19/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base@11.0.19/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base@11.0.19/java.util.ArrayList.forEach(ArrayList.java:1541)
+</failure>
+  </testcase>
+  <testcase name="testFetchAndProcessUser()" classname="medium.SimpleCoroutineTest" time="0.003">
+    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;Processed: User data for user 456&gt; but was: &lt;&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;Processed: User data for user 456&gt; but was: &lt;&gt;
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at app//org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at app//org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at app//medium.SimpleCoroutineTest$testFetchAndProcessUser$1.invokeSuspend(SimpleCoroutineTest.kt:42)
+	at app//kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at app//kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+	at app//kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:280)
+	at app//kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:85)
+	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:59)
+	at app//kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)
+	at app//kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at app//medium.SimpleCoroutineTest.testFetchAndProcessUser(SimpleCoroutineTest.kt:37)
+	at java.base@11.0.19/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base@11.0.19/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base@11.0.19/java.util.ArrayList.forEach(ArrayList.java:1541)
+</failure>
+  </testcase>
+  <testcase name="testProcessUserData()" classname="medium.SimpleCoroutineTest" time="0.001">
+    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;Processed: Sample user data&gt; but was: &lt;&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;Processed: Sample user data&gt; but was: &lt;&gt;
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at app//org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at app//org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at app//medium.SimpleCoroutineTest$testProcessUserData$1.invokeSuspend(SimpleCoroutineTest.kt:30)
+	at app//kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at app//kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+	at app//kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:280)
+	at app//kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:85)
+	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:59)
+	at app//kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)
+	at app//kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at app//medium.SimpleCoroutineTest.testProcessUserData(SimpleCoroutineTest.kt:24)
+	at java.base@11.0.19/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base@11.0.19/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base@11.0.19/java.util.ArrayList.forEach(ArrayList.java:1541)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

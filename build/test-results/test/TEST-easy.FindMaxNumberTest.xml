@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="easy.FindMaxNumberTest" tests="7" skipped="0" failures="6" errors="0" timestamp="2025-08-08T00:22:36.413Z" hostname="Francisco-Velazquez-MacBook-Pro-16-inch-2021-" time="0.033">
+  <properties/>
+  <testcase name="testSingleElement()" classname="easy.FindMaxNumberTest" time="0.006">
+    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;42&gt; but was: &lt;null&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;42&gt; but was: &lt;null&gt;
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at app//org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at app//org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:538)
+	at app//easy.FindMaxNumberTest.testSingleElement(FindMaxNumberTest.kt:26)
+	at java.base@11.0.19/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base@11.0.19/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base@11.0.19/java.util.ArrayList.forEach(ArrayList.java:1541)
+</failure>
+  </testcase>
+  <testcase name="testEmptyList()" classname="easy.FindMaxNumberTest" time="0.005"/>
+  <testcase name="testDuplicateMaxValues()" classname="easy.FindMaxNumberTest" time="0.018">
+    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;7&gt; but was: &lt;null&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;7&gt; but was: &lt;null&gt;
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at app//org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at app//org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:538)
+	at app//easy.FindMaxNumberTest.testDuplicateMaxValues(FindMaxNumberTest.kt:36)
+	at java.base@11.0.19/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base@11.0.19/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base@11.0.19/java.util.ArrayList.forEach(ArrayList.java:1541)
+</failure>
+  </testcase>
+  <testcase name="testMixedNumbers()" classname="easy.FindMaxNumberTest" time="0.001">
+    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;10&gt; but was: &lt;null&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;10&gt; but was: &lt;null&gt;
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at app//org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at app//org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:538)
+	at app//easy.FindMaxNumberTest.testMixedNumbers(FindMaxNumberTest.kt:21)
+	at java.base@11.0.19/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base@11.0.19/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base@11.0.19/java.util.ArrayList.forEach(ArrayList.java:1541)
+</failure>
+  </testcase>
+  <testcase name="testPositiveNumbers()" classname="easy.FindMaxNumberTest" time="0.0">
+    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;5&gt; but was: &lt;null&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;5&gt; but was: &lt;null&gt;
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at app//org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at app//org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:538)
+	at app//easy.FindMaxNumberTest.testPositiveNumbers(FindMaxNumberTest.kt:11)
+	at java.base@11.0.19/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base@11.0.19/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base@11.0.19/java.util.ArrayList.forEach(ArrayList.java:1541)
+</failure>
+  </testcase>
+  <testcase name="testZeroInList()" classname="easy.FindMaxNumberTest" time="0.0">
+    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;5&gt; but was: &lt;null&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;5&gt; but was: &lt;null&gt;
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at app//org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at app//org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:538)
+	at app//easy.FindMaxNumberTest.testZeroInList(FindMaxNumberTest.kt:41)
+	at java.base@11.0.19/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base@11.0.19/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base@11.0.19/java.util.ArrayList.forEach(ArrayList.java:1541)
+</failure>
+  </testcase>
+  <testcase name="testNegativeNumbers()" classname="easy.FindMaxNumberTest" time="0.001">
+    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;-1&gt; but was: &lt;null&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;-1&gt; but was: &lt;null&gt;
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at app//org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at app//org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:538)
+	at app//easy.FindMaxNumberTest.testNegativeNumbers(FindMaxNumberTest.kt:16)
+	at java.base@11.0.19/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base@11.0.19/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base@11.0.19/java.util.ArrayList.forEach(ArrayList.java:1541)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

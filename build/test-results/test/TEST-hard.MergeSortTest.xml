@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hard.MergeSortTest" tests="8" skipped="0" failures="4" errors="0" timestamp="2025-08-08T00:22:36.503Z" hostname="Francisco-Velazquez-MacBook-Pro-16-inch-2021-" time="0.017">
+  <properties/>
+  <testcase name="testOriginalArrayUnmodified()" classname="hard.MergeSortTest" time="0.002"/>
+  <testcase name="testSortDuplicates()" classname="hard.MergeSortTest" time="0.003">
+    <failure message="org.opentest4j.AssertionFailedError: array contents differ at index [0], expected: &lt;1&gt; but was: &lt;3&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: array contents differ at index [0], expected: &lt;1&gt; but was: &lt;3&gt;
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at app//org.junit.jupiter.api.AssertArrayEquals.failArraysNotEqual(AssertArrayEquals.java:440)
+	at app//org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:241)
+	at app//org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:87)
+	at app//org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:83)
+	at app//org.junit.jupiter.api.Assertions.assertArrayEquals(Assertions.java:1281)
+	at app//hard.MergeSortTest.testSortDuplicates(MergeSortTest.kt:53)
+	at java.base@11.0.19/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base@11.0.19/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base@11.0.19/java.util.ArrayList.forEach(ArrayList.java:1541)
+</failure>
+  </testcase>
+  <testcase name="testSortNegativeNumbers()" classname="hard.MergeSortTest" time="0.003">
+    <failure message="org.opentest4j.AssertionFailedError: array contents differ at index [0], expected: &lt;-5&gt; but was: &lt;-3&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: array contents differ at index [0], expected: &lt;-5&gt; but was: &lt;-3&gt;
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at app//org.junit.jupiter.api.AssertArrayEquals.failArraysNotEqual(AssertArrayEquals.java:440)
+	at app//org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:241)
+	at app//org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:87)
+	at app//org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:83)
+	at app//org.junit.jupiter.api.Assertions.assertArrayEquals(Assertions.java:1281)
+	at app//hard.MergeSortTest.testSortNegativeNumbers(MergeSortTest.kt:61)
+	at java.base@11.0.19/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base@11.0.19/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base@11.0.19/java.util.ArrayList.forEach(ArrayList.java:1541)
+</failure>
+  </testcase>
+  <testcase name="testSortEmptyArray()" classname="hard.MergeSortTest" time="0.002"/>
+  <testcase name="testSortAlreadySorted()" classname="hard.MergeSortTest" time="0.0"/>
+  <testcase name="testSortSingleElement()" classname="hard.MergeSortTest" time="0.0"/>
+  <testcase name="testSortRandomArray()" classname="hard.MergeSortTest" time="0.0">
+    <failure message="org.opentest4j.AssertionFailedError: array contents differ at index [0], expected: &lt;11&gt; but was: &lt;64&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: array contents differ at index [0], expected: &lt;11&gt; but was: &lt;64&gt;
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at app//org.junit.jupiter.api.AssertArrayEquals.failArraysNotEqual(AssertArrayEquals.java:440)
+	at app//org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:241)
+	at app//org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:87)
+	at app//org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:83)
+	at app//org.junit.jupiter.api.Assertions.assertArrayEquals(Assertions.java:1281)
+	at app//hard.MergeSortTest.testSortRandomArray(MergeSortTest.kt:13)
+	at java.base@11.0.19/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base@11.0.19/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base@11.0.19/java.util.ArrayList.forEach(ArrayList.java:1541)
+</failure>
+  </testcase>
+  <testcase name="testSortReverseSorted()" classname="hard.MergeSortTest" time="0.001">
+    <failure message="org.opentest4j.AssertionFailedError: array contents differ at index [0], expected: &lt;1&gt; but was: &lt;5&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: array contents differ at index [0], expected: &lt;1&gt; but was: &lt;5&gt;
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at app//org.junit.jupiter.api.AssertArrayEquals.failArraysNotEqual(AssertArrayEquals.java:440)
+	at app//org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:241)
+	at app//org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:87)
+	at app//org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:83)
+	at app//org.junit.jupiter.api.Assertions.assertArrayEquals(Assertions.java:1281)
+	at app//hard.MergeSortTest.testSortReverseSorted(MergeSortTest.kt:29)
+	at java.base@11.0.19/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base@11.0.19/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base@11.0.19/java.util.ArrayList.forEach(ArrayList.java:1541)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
